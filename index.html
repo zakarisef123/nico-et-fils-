@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -21,14 +22,20 @@
             wait_for_update: 500
         });
     </script>
-    <!--
-        GOOGLE ADS / GTM : décommentez les 2 lignes ci-dessous et remplacez l'identifiant par le vôtre
-        (AW-XXXX pour Google Ads, ou G-XXXX pour Google Analytics 4). Grâce au Consent Mode v2 ci-dessus
-        et au bandeau de consentement, aucun cookie publicitaire ne se déclenche tant que l'internaute
-        n'a pas accepté.
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
-        <script>gtag('js', new Date()); gtag('config', 'AW-XXXXXXXXXX');</script>
-    -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W66XNWQB');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GT-TBN53ZNF"></script>
+    <script>
+        gtag('js', new Date());
+        gtag('config', 'GT-TBN53ZNF');
+    </script>
 
     <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACkUlEQVR42sVSO0xTYRT+zr237S2l0pctUKDyiDwUjBgkQaI2IQETE5QEw2LUXVkcjIuXMuiIi3FwI8YYBtREQ8IgQQk+MDggirwKF9uKQKUP+oDe+zvUoqImbp7tfCfnO9938gH/u+jPMKMdI2JpkP0jwfdhhoYB6r8qqGqXtL5gToG6MJwbCUw2gbjoKR23cCe68t529eI0eTzqXwgYoaVTiyn1OMLjTmwEhLPn23MJLNZ796GpUU36nseXJgC8BKBk7PDpZYkD3IxH7YlKZ6TZlcu3tjS7i60mQ5soCkcqKkpTHzTi4Y9Wh35f4LNihjLPAM4DMCGtwqOi5EqO0RBy1ZQZz9RUN+RNTXsxL8vQCDwSm3TSLPCYKC11LcvemeVVOZuAKABwgEQEAKGvee76olgsnlpfDYyppK5vbkR86lYioNqtuzbNRlElsKC1vjq6BDhAgARw3PYL1mKpcEwJOG3WF2Nvx8mUtSI4rA4y6LTk8/uFRVmmyvLC0VLvzBcLkAKArrSFLsbgQU0jcRa9cshZXKghw2nFYFR5vcMOY7aI2TkvFbhKFKe9QHu7sqFOzrIv4M0IAICXJAjDw8NqR0d7W33d/h5NMnGgxJhNZqanfDVJFZYcytWLZM8SSdTqai3uY01zgm7s9cjQBCRJIEDiJAkYfDZR6NpT1NtKoaOu3Tam04lKRCGegSGbg7IRDglyNIrHzPg07JfPDQz0+4i6iH7KAwOg67zcfd1kM11y5js0B/cWI6qomJ2ex5rPn/gUDN+81dN9DcBWZof/JblEqVejQ4NrweQjs81m4OLxsvylxaTt3WSv3H/vwo0nD+5zRCr7cfD3aPf19W2TFlmqqgaA8kwvSZKwM/7fALIQ+r21fy7HAAAAAElFTkSuQmCC">
@@ -942,6 +949,10 @@ body.cmp-active .sticky-cta { transform: translateY(110%) !important; }
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W66XNWQB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <a href="#main" class="sr-only">Aller au contenu</a>
 
     <!-- ============ TOP BAR ============ -->
@@ -1835,6 +1846,15 @@ body.cmp-active .sticky-cta { transform: translateY(110%) !important; }
         });
     }
 
+    /* ---------- Suivi des conversions : clics d'appel ---------- */
+    document.addEventListener("click", function (e) {
+        var link = e.target.closest ? e.target.closest('a[href^="tel:"]') : null;
+        if (!link) return;
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: "phone_call_click", phone_number: link.getAttribute("href").replace("tel:", "") });
+        gtagPush("event", "phone_call_click", { phone_number: link.getAttribute("href").replace("tel:", "") });
+    });
+
     /* ---------- Envoi des formulaires (FormSubmit) ---------- */
     document.querySelectorAll('form[action*="formsubmit.co"]').forEach(function (form) {
         form.addEventListener("submit", function (e) {
@@ -1849,6 +1869,10 @@ body.cmp-active .sticky-cta { transform: translateY(110%) !important; }
                 body: new URLSearchParams(data).toString()
             }).then(function (r) {
                 if (!r.ok) throw new Error("submit failed");
+                var formName = form.closest("#quote-modal") ? "devis_service" : "contact";
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({ event: "form_submit_success", form_name: formName });
+                gtagPush("event", "generate_lead", { form_name: formName });
                 form.innerHTML = '<p class="form-success">Merci, votre demande a bien \u00e9t\u00e9 envoy\u00e9e. Nous vous recontactons rapidement. Pour une urgence, appelez directement le 09 80 80 08 03.</p>';
             }).catch(function () {
                 if (submitBtn) submitBtn.disabled = false;
